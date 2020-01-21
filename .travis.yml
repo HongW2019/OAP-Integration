@@ -19,7 +19,7 @@ before_script:
 - cd /tmp
 - git clone https://github.com/databricks/spark-sql-perf.git
 - cd spark-sql-perf
-- mvn package
+- sbt package
 - mvn install:install-file -Dfile=./target/scala-2.11/spark-sql-perf_2.11-0.5.1-SNAPSHOT.jar -DgroupId=com.databrics -DartifactId=spark-sql-perf_2.11 -Dversion=0.5.1-SNAPSHOT -Dpackaging=jar
 - cd /tmp
 - git clone https://github.com/HongW2019/OAP.git
