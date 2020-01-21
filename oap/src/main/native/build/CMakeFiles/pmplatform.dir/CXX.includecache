@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wh/OAP-0.6.1-spark-2.4.4/src/main/native/org_apache_spark_unsafe_PersistentMemoryPlatform.cpp
+memkind.h
+-
+string
+-
+cstdio
+-
+cstdint
+-
+cstdlib
+-
+cassert
+-
+stdexcept
+-
+org_apache_spark_unsafe_PersistentMemoryPlatform.h
+/home/wh/OAP-0.6.1-spark-2.4.4/src/main/native/org_apache_spark_unsafe_PersistentMemoryPlatform.h
+
+/home/wh/OAP-0.6.1-spark-2.4.4/src/main/native/org_apache_spark_unsafe_PersistentMemoryPlatform.h
+jni.h
+-
+
+/opt/Beaver/jdk/include/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+/opt/Beaver/jdk/include/jni_md.h
+
+/opt/Beaver/jdk/include/linux/jni_md.h
+
